@@ -1,17 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { React,useState } from 'react';
 
 function App() {
+  const incold=0;
+  const [inc,setInc]=useState(incold);
   const incFunc =() =>{
+    setInc(inc + 1);
       console.log('this is a inreament function')
   }
   return (
     
     <>
-    <h1> 0</h1>
+    <h1> {inc}</h1>
     <button onClick={incFunc}>increament</button>
-    <p>pasdfaf</p>
-    <h3>hwewe</h3>
+    
     </>
   );
 }
