@@ -9,7 +9,7 @@ margin-bottom: 10px;
 width: 100%;
 box-shadow: 5px 5px 25px -5px black ;
 color: rgb(154, 17, 182);
-background-color: rgb(196, 222, 255);
+background-color: rgb(3, 42, 94);
 }
 button:hover{
   background-color: rgb(212, 16, 26);
@@ -22,6 +22,7 @@ button:hover{
   align-items: center;
 }
 button{
+  font-weight: bold;
   min-height: 40px;
   border-radius: 5%;
   border-color: transparent;
