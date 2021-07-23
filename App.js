@@ -22,8 +22,10 @@ function App() {
     <div className="main_div">
     <div className="center_div">
     <h1> {inc} {dec}</h1>
+    <div className="btn_div">
     <button onClick={incFunc}>increament</button>
     <button onClick={decFun}>Decrement</button>
+    </div>
     </div>
     </div>
     </>
